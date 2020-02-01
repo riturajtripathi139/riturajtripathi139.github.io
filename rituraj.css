@@ -1,0 +1,32 @@
+.circleimage {
+width: 300px;
+height: 300px;
+border-radius: 300px;
+border: 5px solid white;
+}
+.style{
+   background-color:rgba(141, 185, 214, 0.733);
+}
+.card-deck{
+   margin: auto;
+}
+.jumbotron{
+   background-color: #333333;
+   color: #fff;
+}
+#carouselExampleControls{
+   max-width: 45vmax;
+   margin: 5rem auto;
+}
+.carousel-item img{
+   border: 5px solid rgba(0,0,0,0.75);
+}
+.card {
+
+}
+.img{
+   height: 3vmax;
+   width: 4vmax;
+   border-radius: 2rem;
+   background-origin: border-box;
+}
