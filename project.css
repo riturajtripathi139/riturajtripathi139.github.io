@@ -29,6 +29,7 @@ body {
   color: var(--secondary-color);
   transition: 1000ms;
   overflow-x: hidden;
+  max-width: 100vh;
 }
 
 html {
