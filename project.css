@@ -27,6 +27,7 @@ body {
   background-color: var(--background-color);
   color: var(--secondary-color);
   transition: 1000ms;
+  overflow: hidden;
 }
 
 html {
