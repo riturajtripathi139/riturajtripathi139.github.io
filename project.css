@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -27,7 +28,7 @@ body {
   background-color: var(--background-color);
   color: var(--secondary-color);
   transition: 1000ms;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 html {
