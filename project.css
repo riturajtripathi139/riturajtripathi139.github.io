@@ -5,7 +5,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -28,6 +27,7 @@ body {
   background-color: var(--background-color);
   color: var(--secondary-color);
   transition: 1000ms;
+  /* max-width: 100vw; */
   overflow-x: hidden;
 }
 
@@ -331,13 +331,22 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  width: 100%;
+  width: auto;
   margin-left: 12%;
 }
 .details-container.color-container{
   width: 22%;
-  margin-left: 2%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s ease;
 }
+
+.details-container.color-container:hover{
+  transform: scale(1.025);
+
+  }
 
 .about-details-container {
   justify-content: center;
@@ -456,7 +465,3 @@ article .icon {
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
-
-
-
-
